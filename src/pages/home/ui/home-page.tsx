@@ -1,15 +1,15 @@
-import Header from "./Header";
-import ContentList from "./ContentList";
-import Footer from "./Footer";
+import { CategorySection } from "./category-section";
+import { ContributeSection } from "./contribute-section";
+import { SiteHeader } from "./site-header";
 
 export function HomePage() {
   return (
     <div className="min-h-screen">
-      <Header />
-      <main className="container mx-auto px-4 py-8">
-        <ContentList />
+      <SiteHeader />
+      <main>
+        <CategorySection />
+        <ContributeSection />
       </main>
-      <Footer />
     </div>
   );
 }

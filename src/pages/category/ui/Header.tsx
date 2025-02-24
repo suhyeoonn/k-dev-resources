@@ -29,6 +29,7 @@ export default function Header() {
                 size={18}
               />
             </div>
+            <Button>콘텐츠 제보하기</Button>
             <Button variant="outline">
               <User className="mr-2 h-4 w-4" /> 로그인
             </Button>
