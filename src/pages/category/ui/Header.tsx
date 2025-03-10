@@ -8,6 +8,7 @@ import {
 } from "@/shared/ui/select/ui/select";
 import { Button } from "@/shared/ui/button";
 import { Input } from "@/shared/ui/input";
+import { Logo } from "@/pages/home/ui/logo";
 
 export default function Header() {
   return (
@@ -15,7 +16,7 @@ export default function Header() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            <h1 className="text-2xl font-bold ">Itbrary</h1>
+            <Logo />
           </div>
           <div className="flex items-center space-x-4">
             <div className="relative">
