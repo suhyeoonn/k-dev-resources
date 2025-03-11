@@ -21,7 +21,10 @@ export function CategorySection() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
           {categories?.map((category) => (
-            <Link href={`/${category.path.toLowerCase()}`} key={category.path}>
+            <Link
+              href={`/category/${category.path.toLowerCase()}`}
+              key={category.path}
+            >
               <Card className="hover:shadow-lg transition-shadow duration-200 bg-white cursor-pointer">
                 <CardContent className="p-4 text-center">
                   <span
